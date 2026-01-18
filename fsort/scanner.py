@@ -1,10 +1,7 @@
-import os
-
 def scan_directory(path):
     files = []
-    for fildir in os.listdir(path):
-        full_path = os.path.join(path, fildir)
-        if os.path.isfile(full_path) and fildir not in ["organizer.py", "fsort.py"] and not fildir.startswith("."):
-            files.append(full_path)
+    for fildir in path.iterdir():
+        if fildir.is_file() and fildir.name not in ["organizer.py", "fsort.py"] and not fildir.name.startswith("."):
+            files.append(fildir)
     return files
 

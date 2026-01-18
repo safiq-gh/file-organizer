@@ -1,4 +1,3 @@
-import os
 
 def group_files(files):
 
@@ -14,8 +13,8 @@ def group_files(files):
             }
 
     for file in files:
-        file_name = os.path.basename(file)
-        name, ext = os.path.splitext(file_name)
+        file_name = file.name
+        ext = file.suffix
         ext = ext.lower()
         if ext in group_rules['Images']:
             group['Images'].append(file)

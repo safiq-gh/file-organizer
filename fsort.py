@@ -1,9 +1,10 @@
+from pathlib import Path
 from fsort import scanner, grouper, mover, preview, cli
 def main():
 
     # ask user for directory path
     args = cli.parse_args()
-    path = args.path
+    path = Path(args.path)
     try:
         # scan directory
         files = scanner.scan_directory(path)
