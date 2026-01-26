@@ -7,7 +7,7 @@ def main():
     path = Path(args.path)
     try:
         # scan directory
-        files = scanner.scan_directory(path, args.recursive)
+        files = scanner.scan_directory(path, args.recursive) 
         #print(files)
     except FileNotFoundError:
         print("Invalid path!")
