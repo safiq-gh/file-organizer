@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/fsort/__init__.py
+src/fsort/__main__.py
+src/fsort/args.py
+src/fsort/cli.py
+src/fsort/grouper.py
+src/fsort/mover.py
+src/fsort/preview.py
+src/fsort/scanner.py
+src/fsort.egg-info/PKG-INFO
+src/fsort.egg-info/SOURCES.txt
+src/fsort.egg-info/dependency_links.txt
+src/fsort.egg-info/top_level.txt
+tests/test_grouper.py
+tests/test_mover.py
+tests/test_scanner.py
