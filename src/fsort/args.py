@@ -1,4 +1,3 @@
-# CLI parsing will be added in V1 (argparse)
 import argparse 
 
 def parse_args():
