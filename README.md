@@ -165,15 +165,6 @@ This project prioritizes:
 
 > The goal is a system that is hard to misuse and safe to extend.
 
-## 🗺️ Roadmap (Post-v2)
-
-Planned future work includes:
-
-- **Phase 3:** Configuration and UX improvements
-  - User-defined strategy loading
-  - Enhanced CLI ergonomics
-  - Performance refinements
-
 ## 📄 License
 
 MIT License
