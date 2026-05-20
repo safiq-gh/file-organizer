@@ -12,6 +12,15 @@ src/fsort.egg-info/PKG-INFO
 src/fsort.egg-info/SOURCES.txt
 src/fsort.egg-info/dependency_links.txt
 src/fsort.egg-info/top_level.txt
+src/fsort/strategies/__init__.py
+src/fsort/strategies/archive.py
+src/fsort/strategies/audio.py
+src/fsort/strategies/docs.py
+src/fsort/strategies/fallback.py
+src/fsort/strategies/images.py
+src/fsort/strategies/registry.py
+src/fsort/strategies/video.py
 tests/test_grouper.py
+tests/test_invariants.py
 tests/test_mover.py
 tests/test_scanner.py
